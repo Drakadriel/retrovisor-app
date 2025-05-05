@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:retrovisor-app": "node dist/retrovisor-app/server/server.mjs"
+    "serve:ssr:retrovisor-app": "node dist/retrovisor-app/server/server.mjs",
     "build:prod": "ng build --configuration=production --base-href=/retrovisor-app/"
   },
   "private": true,
