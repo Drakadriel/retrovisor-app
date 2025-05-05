@@ -24,7 +24,7 @@ jobs:
       
       - name: Deploy to gh pages
         run: |
-          npx angular-cli-ghpages --dir=dist/retrovisor-app/
+          ng deploy --base-href=/retrovisor-app/
         env:
           CI: true
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
