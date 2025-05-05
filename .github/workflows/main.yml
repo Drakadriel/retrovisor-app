@@ -23,7 +23,6 @@ jobs:
         run: npm run build
       
       - name: Deploy to gh pages
-        run: |
-          ng deploy --base-href=/retrovisor-app/
+        run: ng deploy --base-href=/retrovisor-app/
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
